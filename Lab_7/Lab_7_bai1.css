@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+.Menu{
+    background-color: green;
+    height: 4vh;
+    width: 100%;
+
+}
+.header .Menu ul {
+    display: inline-block;
+}
+.Menu_1{
+
+    width: 40%;
+}
+.right{
+
+    float: right;
+    width: 30%;
+}
+.header .Menu .Menu_1 li{
+    display: inline-block;
+    line-height: 5vh;
+   padding: 0% 2%;
+   
+}
+.header .Menu .Menu_1 li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+.header .Menu .right li{
+    display: inline-block;
+    line-height: 5vh;
+    
+
+}
+.header .Menu .right li a{
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+.Menu_2{
+    width: 100%;
+    background-color:rgb(13, 133, 13);
+    height: 11vh;
+}
+.img{
+    width: 10%;
+}
+
+.header .Menu_2 ul li{
+    display: inline-block;
+    
+    line-height: 8vh;
+    padding: 0% 0.5%;
+}
+.header .Menu_2 ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.dropdown-menu li {
+    color: rgb(219, 15, 15);
+}
+.giohang{
+   float: right;
+
+   
+}
+
+.action{
+    text-align: center;
+}
+h3{
+    margin: 2%;
+   
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(141, 141, 141);
+}
+.row{
+     
+     display: inline-block;
+     margin: 0% 1%;
+}
+.col-sm-3{
+    display: grid;
+    width: 280px;
+    overflow: hidden;
+    background-color: white;
+    margin: 2%;
+    border: 0.5vh solid rgb(255, 255, 255);
+    grid-template-areas: 
+    "imgg"
+    "headerr"
+    "text"
+    "size"
+    "gia"
+    "add"
+    ;
+}
+.imgg{
+    grid-area: imgg;
+}
+.headerr{
+    grid-area: headerr;
+    text-align: center;
+    font-weight: bold;
+}
+.text{
+    grid-area: text;
+    text-align: center;
+    margin: 4% 0%;
+}
+.size{
+    grid-area: size;
+    text-align: center;
+}
+.gia{
+    grid-area: gia;
+    text-align: center;
+    font-weight: bold;
+}
+.add{
+    grid-area: add;
+    text-align: center;
+    background-color: rgb(8, 180, 8);
+    margin: 5% 20%;
+    min-height: 6px;
+    line-height: 6vh;
+    color: white;
+
+}
+.active{
+    margin: 1% 0%;
+}
+.footer{
+    display: grid;
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+  grid-template-areas:
+  "support support shop shop information information account account stay stay"
+   ;
+}
+h4{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+.support{
+    grid-area: support;
+
+    height: 30vh;
+    
+}
+.shop{
+    grid-area: shop;
+
+    height: 30vh;
+    margin: 0% 5%;
+   
+    
+}
+.information{
+    grid-area: information;
+
+    height: 30vh;
+    
+}
+.account{
+    grid-area: account;
+
+    height: 30vh;
+    margin: 0% 5%;
+}
+.stay{
+    grid-area: stay;
+
+    height: 30vh;
+    
+}
+.thontin{
+    color: rgb(134, 134, 134);
+}
+.dt{
+    font-weight: bold;
+}
+.mail{
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+}
+.input{
+    width: 100%;
+    background-color: aqua;
+}
